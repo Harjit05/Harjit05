@@ -1,0 +1,30 @@
+body {
+    margin: 20px;
+}
+p{
+    color: orange;
+}
+#products{
+
+}
+.product{
+
+}
+a[target="_blank"]{
+
+}
+a[href="https://google.com"]{
+    color: orange;
+
+}
+a[href*="google"]{
+    color:orange
+}
+a[href^="https"]{
+    color:red;
+}
+a[href^="https"][href$=".com"]{
+    color:orange
+}
+
+
